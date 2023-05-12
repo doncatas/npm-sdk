@@ -1,5 +1,5 @@
 {
-  "name": "@doncatas/npm-sdk",
+  "name": "@donatasmeta/npm-sdk",
   "version": "0.0.1",
   "description": "Testing npm SDK",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "build-script": "rollup -c",
     "test": "jest --ci --reporters=default --reporters=jest-junit"
   },
-  "author": "@doncatas",
+  "author": "@donatasmeta",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.13.16",
