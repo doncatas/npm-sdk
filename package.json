@@ -1,7 +1,7 @@
 {
-  "name": "@metahi/sdk",
+  "name": "@doncatas/npm-sdk",
   "version": "0.0.1",
-  "description": "MetaHi SDK",
+  "description": "Testing npm SDK",
   "main": "index.js",
   "types": "index.d.ts",
   "repository": {
@@ -13,7 +13,7 @@
     "build-script": "rollup -c",
     "test": "jest --ci --reporters=default --reporters=jest-junit"
   },
-  "author": "@metahi",
+  "author": "@doncatas",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.13.16",
