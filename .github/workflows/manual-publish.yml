@@ -1,6 +1,10 @@
 name: manual publish to npmjs.com and GitHub Pages
 
-on: [workflow_dispatch]
+#on: [workflow_dispatch]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   npmjs_deploy:
